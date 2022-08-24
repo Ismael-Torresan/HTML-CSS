@@ -1,5 +1,3 @@
-<style>
-
 div {
   margin-top: 20px;
   margin-left: 15px;
@@ -160,25 +158,3 @@ opacity: 0.2;
   cursor: pointer;
   margin-right: 8px;
 }
-</style>
-<div>
-  <button class="subscribe-button">SUBSCRIBE</button>
-  <button class="join-button">JOIN</button>
-  <button class="tweet-button">tweet</button>
-</div>
-
-<div>
-  <button class="uber-button">Request now</button>
-  <button class="amazon-button">Add to Cart</button>
-  <button class="github-button">Sign up</button>
-</div>
-
-<div>
-  <button class="bgetstarted-button">Get started</button>
-  <button class="bdownload-button">Download</button>
-</div>
-
-<div>
-  <button class="lapply-button">Apply on company website</button>
-  <button class="lsave-button">Save</button>
-</div>

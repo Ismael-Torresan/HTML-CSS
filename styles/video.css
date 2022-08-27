@@ -14,7 +14,18 @@ font-weight: 500;
 line-height: 22px;
 margin-bottom: 15px;
 color: black;
+}
 
+@media (max-width: 750px) {
+  .video-preview {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-preview {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 p {

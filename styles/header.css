@@ -45,8 +45,6 @@ img {
 
 .voice-buttom {
   width: 25px;
-  margin-top: 3px;
-  margin-left: 3px;
 }
 
 .search {
@@ -62,6 +60,41 @@ img {
   margin-left: -1px;
   margin-right: 8px;
 
+}
+
+.search,
+.voice,
+.upload-icon-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search .tooltip,
+.voice .tooltip,
+.upload-icon-container .tooltip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 12px;
+  bottom: -25px;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.15;
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: Roboto, Arial;
+}
+
+.search:hover .tooltip,
+.voice:hover .tooltip,
+.upload-icon-container:hover .tooltip {
+  opacity: 1;
 }
 
 .right-section {
